@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    margin: 0;
+    background: #FFFFFF;
+}
+.button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #4592FF;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+}
