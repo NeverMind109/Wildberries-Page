@@ -1,0 +1,74 @@
+.cards {
+    padding: 50px 0 40px;
+}
+.card {
+    min-height: 370px;
+    padding: 60px 46px 80px;
+    border-radius: 10px;
+    &__title {
+        max-width: 222px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 30px;
+        color: #262D33;
+        margin: 0;
+        &--light {
+            color: #FFFFFF;
+        }
+        &--large {
+            margin-top: 30px;
+            max-width: 418px;
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+    &__description {
+        max-width: 176px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5157;
+        margin: 15px 0 25px;
+        &--light {
+            color: #FFFFFF;
+        }
+        &--large {
+            margin: 20px 0 40px;
+            max-width: 320px;
+        }
+        &--pink {
+            margin: 10px 0 15px;
+            color: #FFC4C9;
+        }
+    }
+    &__icon {
+        margin-left: 5px;
+    }
+    &__price {
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+}
+.card-1 {
+    background: #e3e2e3 url('../img/cards/card-1.jpg') no-repeat top right;
+    background-size: cover;
+}
+.card-2 {
+    background: #e3e2e3 url('../img/cards/card-2.jpg') no-repeat top right;
+    background-size: cover;
+}
+.card-3 {
+    background: #CCD5E6 url('../img/cards/card-3.png') no-repeat top right 10%;
+    padding: 35px 46px 60px;
+    background-size: contain;
+}
+.card-4 {
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #FF4F52 url('../img/cards/card-4.png') no-repeat top right;
+    background-size: cover;
+}
