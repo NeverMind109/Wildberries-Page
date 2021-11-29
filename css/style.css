@@ -340,11 +340,54 @@ template {
       font-weight: 900;
       font-size: 14px;
       line-height: 20px;
-      align-items: center;
       letter-spacing: 0.5px;
       text-transform: uppercase;
       color: #939699; }
   .header__cart-icon {
+    margin-right: 10px; }
+
+.slider {
+  position: relative; }
+  .slider__nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%); }
+    .slider__nav-batton {
+      background-color: transparent;
+      border: none;
+      cursor: pointer; }
+
+.slide {
+  padding: 90px 0 110px; }
+  .slide-1 {
+    background: #B4D1E0 url("../img/slider/slide-1-image.png") no-repeat top right 35%; }
+  .slide__label {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 3px;
+    padding: 5px 12px;
+    background-color: #3DC47E; }
+  .slide__title {
+    font-family: 'Roboto Slab', serif;
+    margin: 20px 0 15px;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    color: #262D33; }
+  .slide__description {
+    max-width: 335px;
+    margin: 0 0 40px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B5157; }
+  .slide__button {
+    padding: 10px 25px; }
+  .slide__price {
     margin-right: 10px; }
 
 /*# sourceMappingURL=style.css.map */

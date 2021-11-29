@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wildberries - main page</title>
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css"> <!--Сетка bootstrap-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet"> <!--Lato font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet"> <!--Roboto Slab font-->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css"> <!--Сетка bootstrap-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -51,5 +54,38 @@
             </div>
         </div>
     </header>
+    <div class="slider">
+        <section class="slide slide-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 offset-lg-1">
+                        <span class="slide__label">Bestseller</span>
+                        <h2 class="slide__title">Sweater<br>Choker Neck </h2>
+                        <p class="slide__description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
+                        <button class="button slide__button">
+                            <span class="slide__price">$319</span>
+                            <span class="slide__text">Shop now</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="slider__nav">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-1">
+                        <button class="slider__nav-batton">
+                            <img src="img/prev-button.svg" alt="Icon: Previous" class="slider__nav-batton-prev">
+                        </button>
+                    </div>
+                    <div class="col-1">
+                        <button class="slider__nav-batton">
+                            <img src="img/next-button.svg" alt="Icon: Next" class="slider__nav-batton-next">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

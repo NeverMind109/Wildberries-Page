@@ -1,0 +1,52 @@
+.slider {
+    position: relative;
+    &__nav {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+        &-batton {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+.slide {
+    padding: 90px 0 110px;
+    &-1 {
+        background: #B4D1E0 url('../img/slider/slide-1-image.png') no-repeat top right 35%;
+    }
+    &__label {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+        border-radius: 3px;
+        padding: 5px 12px;
+        background-color: #3DC47E;
+    }
+    &__title {
+        font-family: 'Roboto Slab', serif;
+        margin: 20px 0 15px;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 70px;
+        color: #262D33;
+    }
+    &__description {
+        max-width: 335px;
+        margin: 0 0 40px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        color: #4B5157;
+    }
+    &__button {
+        padding: 10px 25px;
+    }
+    &__price {
+        margin-right: 10px;
+    }
+}
