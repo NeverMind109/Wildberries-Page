@@ -5,6 +5,7 @@
         top: 50%;
         width: 100%;
         transform: translateY(-50%);
+        z-index: 9;
         &-batton {
             background-color: transparent;
             border: none;
@@ -14,8 +15,12 @@
 }
 .slide {
     padding: 90px 0 110px;
+    min-height: 568px;
     &-1 {
         background: #B4D1E0 url('../img/slider/slide-1-image.png') no-repeat top right 35%;
+    }
+    &-2 {
+        background: #CCD5E6 url('../img/slider/slide-1-image.png') no-repeat top right 35%;
     }
     &__title {
         font-family: 'Roboto Slab', serif;

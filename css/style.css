@@ -364,16 +364,20 @@ template {
     position: absolute;
     top: 50%;
     width: 100%;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    z-index: 9; }
     .slider__nav-batton {
       background-color: transparent;
       border: none;
       cursor: pointer; }
 
 .slide {
-  padding: 90px 0 110px; }
+  padding: 90px 0 110px;
+  min-height: 568px; }
   .slide-1 {
     background: #B4D1E0 url("../img/slider/slide-1-image.png") no-repeat top right 35%; }
+  .slide-2 {
+    background: #CCD5E6 url("../img/slider/slide-1-image.png") no-repeat top right 35%; }
   .slide__title {
     font-family: 'Roboto Slab', serif;
     margin: 20px 0 15px;

@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet"> <!--Lato font-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet"> <!--Roboto Slab font-->
     <link rel="stylesheet" href="css/bootstrap-grid.min.css"> <!--Сетка bootstrap-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/> <!--Swiper Slider-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -42,32 +43,49 @@
             </div>
         </div>
     </header>
-    <div class="slider">
-        <section class="slide slide-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 offset-lg-1">
-                        <span class="label">Bestseller</span>
-                        <h2 class="slide__title">Sweater<br>Choker Neck </h2>
-                        <p class="slide__description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
-                        <button class="button slide__button">
-                            <span class="button__price">$319</span>
-                            <span class="button__text">Shop now</span>
-                        </button>
+    <div class="slider swiper">
+        <div class="swiper-wrapper">
+            <section class="slide slide-1 swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 offset-lg-1">
+                            <span class="label">Bestseller</span>
+                            <h2 class="slide__title">Sweater<br>Choker Neck</h2>
+                            <p class="slide__description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
+                            <button class="button slide__button">
+                                <span class="button__price">$319</span>
+                                <span class="button__text">Shop now</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <section class="slide slide-2 swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 offset-lg-1">
+                            <span class="label">New</span>
+                            <h2 class="slide__title">Lorem, ipsum dolor.</h2>
+                            <p class="slide__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia assumenda dolore cumque, veniam id amet tenetur nostrum</p>
+                            <button class="button slide__button">
+                                <span class="button__price">$219</span>
+                                <span class="button__text">Shop now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
         <div class="slider__nav">
             <div class="container">
-                <div class="row justify-content-between">
+                <div class="row justify-content-between slider-button-prev">
                     <div class="col-1">
                         <button class="slider__nav-batton">
                             <img src="img/prev-button.svg" alt="Icon: Previous" class="slider__nav-batton-prev">
                         </button>
                     </div>
                     <div class="col-1">
-                        <button class="slider__nav-batton">
+                        <button class="slider__nav-batton slider-button-next">
                             <img src="img/next-button.svg" alt="Icon: Next" class="slider__nav-batton-next">
                         </button>
                     </div>
@@ -219,5 +237,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> <!--Swiper Slider-->
+    <script src="js/main.js"></script>
 </body>
 </html>
