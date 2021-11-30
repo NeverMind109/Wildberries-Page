@@ -22,6 +22,16 @@ body {
   .button__price {
     margin-right: 10px; }
 
+.label {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 3px;
+  padding: 5px 12px;
+  background-color: #3DC47E; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -364,15 +374,6 @@ template {
   padding: 90px 0 110px; }
   .slide-1 {
     background: #B4D1E0 url("../img/slider/slide-1-image.png") no-repeat top right 35%; }
-  .slide__label {
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    text-align: center;
-    color: #FFFFFF;
-    border-radius: 3px;
-    padding: 5px 12px;
-    background-color: #3DC47E; }
   .slide__title {
     font-family: 'Roboto Slab', serif;
     margin: 20px 0 15px;
@@ -391,7 +392,7 @@ template {
     padding: 10px 25px; }
 
 .cards {
-  padding: 50px 0 40px; }
+  padding: 50px 0 60px; }
 
 .card {
   min-height: 370px;
@@ -454,5 +455,51 @@ template {
   padding-right: 25px;
   background: #FF4F52 url("../img/cards/card-4.png") no-repeat top right;
   background-size: cover; }
+
+.goods {
+  padding: 0 0 70px; }
+  .goods__title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #262D33;
+    margin: 0; }
+  .goods__more {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #262D33; }
+  .goods__card {
+    position: relative;
+    text-align: center;
+    padding: 30px 36px 35px; }
+    .goods__card-label {
+      position: absolute;
+      top: 18px;
+      left: 18px;
+      padding: 5px 12px; }
+    .goods__card-title {
+      font-family: 'Roboto Slab', serif;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 25px;
+      color: #262D33;
+      margin: 15px 0 5px; }
+    .goods__card-description {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #4B5157;
+      margin: 0; }
+    .goods__card-price {
+      display: block;
+      margin: 20px 0 0;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 30px;
+      color: #262D33; }
 
 /*# sourceMappingURL=style.css.map */
