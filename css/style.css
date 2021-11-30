@@ -502,4 +502,46 @@ template {
       line-height: 30px;
       color: #262D33; }
 
+.footer {
+  background-color: #8F79D4;
+  padding: 45px 0 40px;
+  color: #FFFFFF; }
+  .footer__menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .footer__menu-item:not(:last-child) {
+      margin-right: 40px; }
+    .footer__menu-link {
+      text-decoration: none;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 20px;
+      color: inherit; }
+  .footer__text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E7D9FF; }
+  .footer__social-link {
+    text-decoration: none; }
+    .footer__social-link:nth-child(1) {
+      margin-left: 30px; }
+    .footer__social-link:not(:first-child) {
+      margin-left: 20px; }
+  .footer__line {
+    margin: 44px 0 25px; }
+  .footer__payment-logo {
+    vertical-align: middle; }
+    .footer__payment-logo:not(:last-child) {
+      margin-right: 25px; }
+  .footer__link-top {
+    text-decoration: none; }
+    .footer__link-top-text {
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 20px;
+      color: #FFFFFF;
+      margin-right: 15px; }
+
 /*# sourceMappingURL=style.css.map */
