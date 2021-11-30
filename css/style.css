@@ -548,4 +548,32 @@ template {
       color: #FFFFFF;
       margin-right: 15px; }
 
+@media (max-width: 1200px) {
+  .slide {
+    background-size: cover; }
+
+  .card-3 {
+    background-size: cover; }
+
+  .card-4 {
+    background-size: contain; } }
+@media (max-width: 992px) {
+  .slider__nav {
+    display: none; } }
+@media (max-width: 576px) {
+  .header {
+    padding: 20px; }
+
+  .slide__title {
+    font-size: 36px;
+    line-height: 1.4; }
+
+  .card {
+    background-position: left top;
+    min-height: 300px;
+    padding: 30px; }
+
+  .card-4 {
+    background-position: right top; } }
+
 /*# sourceMappingURL=style.css.map */
