@@ -10,6 +10,9 @@
             &:not(:last-child) {
                 margin-right: 40px;
             }
+            &:hover .footer__menu-link {
+                color: #cbc0df;
+            }
         }
         &-link {
             text-decoration: none;
@@ -53,6 +56,9 @@
             line-height: 20px;
             color: #FFFFFF;
             margin-right: 15px;
+            &:hover {
+                color: #cbc0df;
+            }
         }
     }
 }

@@ -347,6 +347,8 @@ template {
     list-style: none;
     padding: 0;
     margin: 0; }
+    .header__menu-item:hover .header__menu-link {
+      color: #141414; }
     .header__menu-link {
       text-decoration: none;
       font-weight: 900;
@@ -516,6 +518,8 @@ template {
     padding: 0; }
     .footer__menu-item:not(:last-child) {
       margin-right: 40px; }
+    .footer__menu-item:hover .footer__menu-link {
+      color: #cbc0df; }
     .footer__menu-link {
       text-decoration: none;
       font-weight: 900;
@@ -547,6 +551,8 @@ template {
       line-height: 20px;
       color: #FFFFFF;
       margin-right: 15px; }
+      .footer__link-top-text:hover {
+        color: #cbc0df; }
 
 @media (max-width: 1200px) {
   .slide {
